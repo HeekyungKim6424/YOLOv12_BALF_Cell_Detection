@@ -1,1 +1,1 @@
-this is repository of paper "Automated detection and classification of bronchoalveolar lavage fluid cells using YOLOv12: Optimization of data augmentation"<img width="468" height="166" alt="image" src="https://github.com/user-attachments/assets/4951bd94-09e0-4315-a536-c507b09860b6" />
+this is repository of paper "Automated detection and classification of bronchoalveolar lavage fluid cells using YOLOv12: Optimization of data augmentation"
