@@ -130,7 +130,7 @@ The final trained model weights are provided through Google Drive due to their l
 |---|---|
 | Model | YOLOv12l |
 | Weight File | `best.pt` |
-| Download | [Google Drive - Download Weights](GOOGLE_DRIVE_LINK) |
+| Download | [Google Drive - Download Weights]([GOOGLE_DRIVE_LINK](https://drive.google.com/drive/folders/1YFvfzsgBM0ai0VhpdwuUDI1t47tuipFs?usp=sharing)) |
 
 ### Download Instructions
 
