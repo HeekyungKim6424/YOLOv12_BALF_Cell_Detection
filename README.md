@@ -123,8 +123,7 @@ These findings suggest that selecting augmentation techniques according to datas
 
 ## 6. Pre-trained Weights
 
-The final trained model weights are provided through Google Drive due to their large file size. <br>
-(The weight has not been uploaded yet, but we will upload it if needed.)
+The final trained model weights are provided through Google Drive due to their large file size.
 
 | Item | Description |
 |---|---|
