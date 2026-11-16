@@ -47,7 +47,7 @@ The following scripts were additionally developed for automated experimentation 
 
 ```text
 .
-├── yolov12/
+├── ultralytics/
 │   ├── yolo_metric.py
 │   ├── yolo_per_version.py
 │   ├── additialnal_yolo_version.py
