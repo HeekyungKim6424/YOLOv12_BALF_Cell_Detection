@@ -81,18 +81,15 @@ if __name__ == '__main__':
             df.to_csv(save_path / csv_filename, index=False, encoding='utf-8-sig')
             
             print(f"\n[{model_name}] 완료 (학습: {train_time_str}, 추론: {inference_time_ms}ms/img)")
-            print(f"📄 개별 저장 완료: {csv_filename}")
+            print(f" 개별 저장 완료: {csv_filename}")
             print("-" * 70)
 
         except Exception as e:
-            # 중간에 모델이 다운로드 안 되거나 메모리 부족(OOM)이 발생해도 
-            # 프로그램이 뻗지 않고 다음 모델로 넘어가도록 예외 처리
-            print(f"\n [{model_name}] 학습 중 에러 발생! 다음 모델로 넘어갑니다.")
+            print(f"\n [{model_name}] 학습 중 에러 발생. 다음 모델로 넘어갑니다.")
             print(traceback.format_exc())
             print("-" * 70)
             continue
 
-    # 모든 모델 학습이 끝난 후, 모델끼리 성능과 시간을 쉽게 비교할 수 있는 전체 요약본 저장
     if summary_rows:
         df_summary = pd.DataFrame(summary_rows)
         summary_filename = f"{dataset_name}_ALL_MODELS_SUMMARY.csv"
