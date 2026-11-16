@@ -50,9 +50,9 @@ if __name__ == '__main__':
             print(f"\n 기존 요약 파일({os.path.basename(summary_csv_path)})에 {model_name} 결과 추가 완료")
         else:
             new_df.to_csv(summary_csv_path, mode='w', header=True, index=False, encoding='utf-8-sig')
-            print(f"\n 요약 파일이 없어 새로 생성하여 저장 완료!")
+            print(f"\n 요약 파일이 없어 새로 생성하여 저장 완료")
             
-        print(f"⏱️ 소요 시간: {train_time_str}, 추론 속도: {inference_time_ms}ms/img")
+        print(f" 소요 시간: {train_time_str}, 추론 속도: {inference_time_ms}ms/img")
         print("-" * 70)
 
     except Exception as e:
